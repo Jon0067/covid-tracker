@@ -1,6 +1,5 @@
 import React from 'react';
 import { StyleSheet, Text, View} from 'react-native';
-import List from './src/components/List';
 import List2 from './src/components/List2';
 import Global from './src/components/Global';
 import Global2 from './src/components/Global2';
@@ -20,7 +19,6 @@ const App = () => {
       </View>
       <Text style={styles.blue}>                               Indonesia</Text>
       <List2/>
-      <List/>
     </View>
   );
 }
