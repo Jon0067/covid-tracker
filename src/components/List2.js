@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, Text, FlatList, StyleSheet} from 'react-native';
-
+ 
 class List2 extends React.Component{
 	constructor(){
 		super();
