@@ -1,6 +1,6 @@
 import React from 'react';
 import {StyleSheet,View, Text, FlatList} from 'react-native';
-
+ 
 class Global extends React.Component{
 	constructor(){
 		super();
