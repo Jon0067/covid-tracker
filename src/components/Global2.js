@@ -15,7 +15,7 @@ class Global2 extends React.Component{
 			refreshing: false
 		}
 }
-
+ 
 renderItem = ({ item }) => (
 	<View style={{flex :3 , flexDirection:"row",borderRightWidth:2,borderLeftWidth:2, borderLeftColor:'#000'}}>
 		<Text style={styles.sembu}>{item.status}: {item.value} </Text>
