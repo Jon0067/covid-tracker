@@ -15,7 +15,7 @@ class Global extends React.Component{
 			refreshing: false
 		}
 }
-
+ 
 renderItem = ({ item }) => (
 	<View style={{flex :3 , flexDirection:"row"}}>
 		<Text style={styles.Positif}>{item.status}: {item.value}</Text>
