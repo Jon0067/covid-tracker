@@ -15,7 +15,7 @@ class Global3 extends React.Component{
 			refreshing: false
 		}
 }
-
+ 
 renderItem = ({ item }) => (
 	<View style={{flex :3 , flexDirection:"row"}}>
 		<Text style={styles.Meninggal}>{item.status}: {item.value}</Text>
